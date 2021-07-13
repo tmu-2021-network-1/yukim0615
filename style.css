@@ -1,0 +1,205 @@
+html,body{
+  height: 100%;
+}
+
+canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+#main {
+  height: 100%;
+}
+
+.calendar{
+  position: fixed;
+  background-color: red;
+  width: 10%;
+  height: auto;
+  top: 35%;
+  left: 45%;
+}
+
+#container1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1000px;
+}
+  
+#container2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2000px;
+}
+
+#container3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3000px; 
+}
+
+#container4{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 4000px;
+}
+  
+#container5{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 5000px;
+}
+
+#container6{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 6000px; 
+}
+
+#container7{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 7000px;
+}
+  
+#container8{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 8000px;
+}
+
+#container9{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 9000px; 
+}
+
+#container10{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 10000px;
+}
+  
+#container11{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 11000px;
+}
+
+#container12{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 12000px; 
+}
+
+h1{
+  position: fixed;
+  left: 5%;
+}
+
+.contents{
+  text-align: center;
+  height: 100%;
+}
+
+.space{
+  position: sticky;
+  height: 500px;
+  width: 100%;
+  border: solid 1px;
+  top: 0;
+}
+
+img.Jan{
+  position: sticky;
+  width: 10%;
+}
+
+img.Feb{
+  position: sticky;
+  width: 10%;
+}
+
+img.Mar{
+  position: sticky;
+  width: 10%;
+}
+
+img.Apl{
+  position: sticky;
+  width: 10%;
+}
+
+img.May{
+  position: sticky;
+  width: 10%;
+}
+
+img.Jun{
+  position: sticky;
+  width: 10%;
+}
+
+img.Jul{
+  position: sticky;
+  width: 10%;
+}
+
+img.Aug{
+  position: sticky;
+  width: 10%;
+}
+
+img.Sep{
+  position: sticky;
+  width: 10%;
+}
+
+img.Oct{
+  position: sticky;
+  width: 10%;
+}
+
+img.Nov{
+  position: sticky;
+  width: 10%;
+}
+
+img.Dec{
+  position: fixed;
+  top: 31%;
+  left: 45%;
+  width: 10%;
+}
+
+img.sticky{
+  position: -webkit-sticky;
+  top: 35%;
+}
