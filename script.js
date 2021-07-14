@@ -16,7 +16,7 @@ function draw() {
     background(red, green, 255);
   }
   
-  else if(6000<=scrollY&&scrollY<90000){
+  else if(6000<=scrollY&&scrollY<9000){
     const red = 100 + map(window.scrollY -6000, 0, 3000, 0, 100);
     const green = 200 - map(window.scrollY -6000, 0, 3000, 0, 45);
     const blue = 255 - map(window.scrollY -6000, 0, 3000, 0, 100);
