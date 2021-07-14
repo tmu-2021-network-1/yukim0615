@@ -249,7 +249,7 @@ function draw() {
   
   if(keyIsPressed){
     if(key== 's'){
-      saveCanvas('birthdayCard', 'png');
+      save('birthdayCard.png');
     }
   }
   
