@@ -5,10 +5,10 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
   rectMode(CENTER);
   colorMode(RGB, 255, 255, 255);
     for(i=0; i<12; i++){
-      x[i]= random()* 600- 100;
+      x[i]= random()* 600-100;
     }
     for(j=0; j<12; j++){
-      y[j]= random()* 400- 50;
+      y[j]= random()* 400-50;
     }
 }
 
@@ -39,79 +39,116 @@ function draw() {
     background(red, green, blue);
   }
   
-    noStroke();
-    fill((window.scrollY * 0.1) % 360, 50, brightness, 0.5);
+  let s29= Math.floor(map(window.scrollY%1000,0,1000,1,29.9));
+  let s30= Math.floor(map(window.scrollY%1000,0,1000,1,30.9));
+  let s31= Math.floor(map(window.scrollY%1000,0,1000,1,31.9));
 
   if(window.scrollY<1000){
     fill(0,0,0,map(abs(window.scrollY-500),0,500,255,0));
-    text("睦月",x[0],y[0]);
     textSize(300);
+    text("睦月",x[0],y[0]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[0],400- y[0]);
   }
   
   else if(1000<=window.scrollY&&window.scrollY<2000){
     fill(0,0,0,map(abs(window.scrollY-1500),0,500,255,0));
-    text("如月",x[1],y[1]);
     textSize(300);
+    text("如月",x[1],y[1]);
+    fill(0,0,0);
+    textSize(100);
+    text(s29.toString(),600- x[1],400- y[1]);
   }
   
   else if(2000<=window.scrollY&&window.scrollY<3000){
     fill(0,0,0,map(abs(window.scrollY-2500),0,500,255,0));
-    text("弥生",x[2],y[2]);
     textSize(300);
+    text("弥生",x[2],y[2]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[2],400- y[2]);
   }
   
   else if(3000<=window.scrollY&&window.scrollY<4000){
     fill(0,0,0,map(abs(window.scrollY-3500),0,500,255,0));
-    text("卯月",x[3],y[3]);
     textSize(300);
+    text("卯月",x[3],y[3]);
+    fill(0,0,0);
+    textSize(100);
+    text(s30.toString(),600- x[3],400- y[3]);
   }
   
   else if(4000<=window.scrollY&&window.scrollY<5000){
     fill(0,0,0,map(abs(window.scrollY-4500),0,500,255,0));
-    text("皐月",x[4],y[4]);
     textSize(300);
+    text("皐月",x[4],y[4]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[4],400- y[4]);
   }
   
   else if(5000<=window.scrollY&&window.scrollY<6000){
     fill(0,0,0,map(abs(window.scrollY-5500),0,500,255,0));
-    text("水無月",x[5],y[5]);
     textSize(300);
+    text("水無月",x[5],y[5]);
+    fill(0,0,0);
+    textSize(100);
+    text(s30.toString(),600- x[5],400- y[5]);
   }
   
   else if(6000<=window.scrollY&&window.scrollY<7000){
     fill(0,0,0,map(abs(window.scrollY-6500),0,500,255,0));
-    text("文月",x[6],y[6]);
     textSize(300);
+    text("文月",x[6],y[6]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[6],400- y[6]);
   }
   
   else if(7000<=window.scrollY&&window.scrollY<8000){
     fill(0,0,0,map(abs(window.scrollY-7500),0,500,255,0));
-    text("葉月",x[7],y[7]);
     textSize(300);
+    text("葉月",x[7],y[7]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[7],400- y[7]);
   }
   
   else if(8000<=window.scrollY&&window.scrollY<9000){
     fill(0,0,0,map(abs(window.scrollY-8500),0,500,255,0));
-    text("長月",x[8],y[8]);
     textSize(300);
+    text("長月",x[8],y[8]);
+    fill(0,0,0);
+    textSize(100);
+    text(s30.toString(),600- x[8],400- y[8]);
   }
   
   else if(9000<=window.scrollY&&window.scrollY<10000){
     fill(0,0,0,map(abs(window.scrollY-9500),0,500,255,0));
-    text("神無月",x[9],y[9]);
     textSize(300);
+    text("神無月",x[9],y[9]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[9],400- y[9]);
   }
   
   else if(10000<=window.scrollY&&window.scrollY<11000){
     fill(0,0,0,map(abs(window.scrollY-10500),0,500,255,0));
-    text("霜月",x[10],y[10]);
     textSize(300);
+    text("霜月",x[10],y[10]);
+    fill(0,0,0);
+    textSize(100);
+    text(s30.toString(),600- x[10],400- y[10]);
   }
   
-  else if(11000<=window.scrollY){
+  else if(11000<=window.scrollY&&window.scrollY<12000){
     fill(0,0,0,map(abs(window.scrollY-11500),0,500,255,0));
-    text("師走",x[11],y[11]);
     textSize(300);
+    text("師走",x[11],y[11]);
+    fill(0,0,0);
+    textSize(100);
+    text(s31.toString(),600- x[11],400- y[11]);
   }
   
 }
