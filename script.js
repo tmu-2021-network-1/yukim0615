@@ -5,10 +5,10 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
   rectMode(CENTER);
   colorMode(RGB, 255, 255, 255);
     for(i=0; i<12; i++){
-      x[i]= random()* width;
+      x[i]= random()* width* 2/ 3;
     }
     for(j=0; j<12; j++){
-      y[j]= random()* height;
+      y[j]= random()* height* 2/ 3;
     }
 }
 
