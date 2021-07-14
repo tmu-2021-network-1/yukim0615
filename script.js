@@ -250,7 +250,7 @@ function draw() {
 }
 
 function keyPressed(){
-  if(key== ' '){
+  if(key== 's'){
     saveCanvas('birthdayCard', 'png');
   }
 }
