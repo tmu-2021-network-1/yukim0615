@@ -248,3 +248,9 @@ function draw() {
   }
   
 }
+
+function keyPressed(){
+  if(key== ' '){
+    saveCanvas('birthdayCard', 'png');
+  }
+}
