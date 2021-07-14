@@ -24,9 +24,9 @@ function draw() {
   }
   
   else if(9000<=scrollY){
-    const red = 200 + map(window.scrollY -9000, 0, 2500, 0, 55);
-    const green = 155 + map(window.scrollY -9000, 0, 2500, 0, 100);
-    const blue = 155 + map(window.scrollY -9000, 0, 2500, 0, 100);
+    const red = 200 + map(window.scrollY -9000, 0, 3000, 0, 55);
+    const green = 155 + map(window.scrollY -9000, 0, 3000, 0, 100);
+    const blue = 155 + map(window.scrollY -9000, 0, 3000, 0, 100);
     background(red, green, blue);
   }
   
