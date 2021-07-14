@@ -47,7 +47,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-500),0,500,255,0));
     textSize(300);
     text("睦月",x[0],y[0]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[0],400- y[0]);
   }
@@ -56,7 +64,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-1500),0,500,255,0));
     textSize(300);
     text("如月",x[1],y[1]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s29.toString(),600- x[1],400- y[1]);
   }
@@ -65,7 +81,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-2500),0,500,255,0));
     textSize(300);
     text("弥生",x[2],y[2]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[2],400- y[2]);
   }
@@ -74,7 +98,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-3500),0,500,255,0));
     textSize(300);
     text("卯月",x[3],y[3]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s30.toString(),600- x[3],400- y[3]);
   }
@@ -83,7 +115,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-4500),0,500,255,0));
     textSize(300);
     text("皐月",x[4],y[4]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[4],400- y[4]);
   }
@@ -92,7 +132,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-5500),0,500,255,0));
     textSize(300);
     text("水無月",x[5],y[5]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s30.toString(),600- x[5],400- y[5]);
   }
@@ -101,7 +149,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-6500),0,500,255,0));
     textSize(300);
     text("文月",x[6],y[6]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[6],400- y[6]);
   }
@@ -110,7 +166,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-7500),0,500,255,0));
     textSize(300);
     text("葉月",x[7],y[7]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[7],400- y[7]);
   }
@@ -119,7 +183,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-8500),0,500,255,0));
     textSize(300);
     text("長月",x[8],y[8]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s30.toString(),600- x[8],400- y[8]);
   }
@@ -128,7 +200,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-9500),0,500,255,0));
     textSize(300);
     text("神無月",x[9],y[9]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[9],400- y[9]);
   }
@@ -137,7 +217,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-10500),0,500,255,0));
     textSize(300);
     text("霜月",x[10],y[10]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s30.toString(),600- x[10],400- y[10]);
   }
@@ -146,7 +234,15 @@ function draw() {
     fill(0,0,0,map(abs(window.scrollY-11500),0,500,255,0));
     textSize(300);
     text("師走",x[11],y[11]);
-    fill(0,0,0);
+    if(s31.toString()%7==6){
+      fill(0,0,255);
+    }
+    else if(s31.toString()%7==0){
+      fill(255,0,0);
+    }
+    else{
+      fill(0,0,0);
+    }
     textSize(100);
     text(s31.toString(),600- x[11],400- y[11]);
   }
