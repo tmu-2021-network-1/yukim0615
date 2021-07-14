@@ -8,7 +8,7 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
       x[i]= random()* 600- 100;
     }
     for(j=0; j<12; j++){
-      y[j]= random()* 400- 100;
+      y[j]= random()* 400- 50;
     }
 }
 
