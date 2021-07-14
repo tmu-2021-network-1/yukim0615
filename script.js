@@ -36,7 +36,7 @@ function draw() {
   if(window.scrollY<1000){
     fill(0,0,0,map(abs(window.scrollY-500),0,500,255,0));
     text("睦月",width/3,height/2);
-    textSize(300);
+    textSize(random()*100+250);
   }
   
   else if(1000<=window.scrollY&&window.scrollY<2000){
