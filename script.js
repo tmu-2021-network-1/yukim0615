@@ -5,10 +5,10 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
   rectMode(CENTER);
   colorMode(RGB, 255, 255, 255);
     for(i=0; i<12; i++){
-      x[i]= random()* 600-100;
+      x[i]= random()* width;
     }
     for(j=0; j<12; j++){
-      y[j]= random()* 400-50;
+      y[j]= random()* height;
     }
 }
 
@@ -39,9 +39,9 @@ function draw() {
     background(red, green, blue);
   }
   
-  let s29= Math.floor(map(window.scrollY%1000,0,1000,1,29.9));
-  let s30= Math.floor(map(window.scrollY%1000,0,1000,1,30.9));
-  let s31= Math.floor(map(window.scrollY%1000,0,1000,1,31.9));
+  let s29= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 29.9));
+  let s30= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 30.9));
+  let s31= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 31.9));
 
   if(window.scrollY<1000){
     fill(0,0,0,map(abs(window.scrollY-500),0,500,255,0));
@@ -57,7 +57,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[0],400- y[0]);
+    text(s31.toString(),width- x[0],height- y[0]);
   }
   
   else if(1000<=window.scrollY&&window.scrollY<2000){
@@ -74,7 +74,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s29.toString(),600- x[1],400- y[1]);
+    text(s29.toString(),width- x[1],height- y[1]);
   }
   
   else if(2000<=window.scrollY&&window.scrollY<3000){
@@ -91,7 +91,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[2],400- y[2]);
+    text(s31.toString(),width- x[2],height- y[2]);
   }
   
   else if(3000<=window.scrollY&&window.scrollY<4000){
@@ -108,7 +108,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s30.toString(),600- x[3],400- y[3]);
+    text(s30.toString(),width- x[3],height- y[3]);
   }
   
   else if(4000<=window.scrollY&&window.scrollY<5000){
@@ -125,7 +125,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[4],400- y[4]);
+    text(s31.toString(),width- x[4],height- y[4]);
   }
   
   else if(5000<=window.scrollY&&window.scrollY<6000){
@@ -142,7 +142,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s30.toString(),600- x[5],400- y[5]);
+    text(s30.toString(),width- x[5],height- y[5]);
   }
   
   else if(6000<=window.scrollY&&window.scrollY<7000){
@@ -159,7 +159,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[6],400- y[6]);
+    text(s31.toString(),width- x[6],height- y[6]);
   }
   
   else if(7000<=window.scrollY&&window.scrollY<8000){
@@ -176,7 +176,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[7],400- y[7]);
+    text(s31.toString(),width- x[7],height- y[7]);
   }
   
   else if(8000<=window.scrollY&&window.scrollY<9000){
@@ -193,7 +193,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s30.toString(),600- x[8],400- y[8]);
+    text(s30.toString(),width- x[8],height- y[8]);
   }
   
   else if(9000<=window.scrollY&&window.scrollY<10000){
@@ -210,7 +210,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[9],400- y[9]);
+    text(s31.toString(),width- x[9],height- y[9]);
   }
   
   else if(10000<=window.scrollY&&window.scrollY<11000){
@@ -227,7 +227,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s30.toString(),600- x[10],400- y[10]);
+    text(s30.toString(),width- x[10],height- y[10]);
   }
   
   else if(11000<=window.scrollY&&window.scrollY<12000){
@@ -244,7 +244,7 @@ function draw() {
       fill(0,0,0);
     }
     textSize(100);
-    text(s31.toString(),600- x[11],400- y[11]);
+    text(s31.toString(),width- x[11],height- y[11]);
   }
   
 }
