@@ -1,13 +1,36 @@
 function setup() {  createCanvas(window.innerWidth, window.innerHeight);
   rectMode(CENTER);
-  colorMode(HSB, 360, 100, 100);
+  colorMode(RGB, 255, 255, 255);
 }
 
 
 function draw() {
-  const hue = 100 - constrain(window.scrollY / 100, 0, 40);
-  background(hue, 20, 100);
+  if(scrollY<3000){
+    const green = 255 - map(window.scrollY, 0, 3000, 0, 100);
+    background(255, green, 255);
+  }
+  
+  else if(3000<=scrollY&&scrollY<6000){
+    const red = 255 - map(window.scrollY -3000, 0, 3000, 0, 155);
+    const green = 155 + map(window.scrollY -3000, 0, 3000, 0, 45);
+    background(red, green, 255);
+  }
+  
+  else if(6000<=scrollY&&scrollY<10000){
+    const red = 100 + map(window.scrollY -7000, 0, 4000, 0, 100);
+    const green = 200 - map(window.scrollY -7000, 0, 4000, 0, 45);
+    const blue = 255 - map(window.scrollY -7000, 0, 4000, 0, 100);
+    background(red, green, blue);
+  }
+  
+  else if(10000<=scrollY){
+    const red = 200 + map(window.scrollY -10000, 0, 2000, 0, 55);
+    const green = 155 + map(window.scrollY -10000, 0, 2000, 0, 100);
+    const blue = 155 + map(window.scrollY -10000, 0, 2000, 0, 100);
+    background(red, green, blue);
+  }
   
   noStroke();
   fill((window.scrollY * 0.1) % 360, 50, brightness, 0.5);
+
 }
