@@ -16,17 +16,17 @@ function draw() {
     background(red, green, 255);
   }
   
-  else if(6000<=scrollY&&scrollY<10000){
-    const red = 100 + map(window.scrollY -6000, 0, 4000, 0, 100);
-    const green = 200 - map(window.scrollY -6000, 0, 4000, 0, 45);
-    const blue = 255 - map(window.scrollY -6000, 0, 4000, 0, 100);
+  else if(6000<=scrollY&&scrollY<90000){
+    const red = 100 + map(window.scrollY -6000, 0, 3000, 0, 100);
+    const green = 200 - map(window.scrollY -6000, 0, 3000, 0, 45);
+    const blue = 255 - map(window.scrollY -6000, 0, 3000, 0, 100);
     background(red, green, blue);
   }
   
-  else if(10000<=scrollY){
-    const red = 200 + map(window.scrollY -10000, 0, 2000, 0, 55);
-    const green = 155 + map(window.scrollY -10000, 0, 2000, 0, 100);
-    const blue = 155 + map(window.scrollY -10000, 0, 2000, 0, 100);
+  else if(9000<=scrollY){
+    const red = 200 + map(window.scrollY -9000, 0, 2500, 0, 55);
+    const green = 155 + map(window.scrollY -9000, 0, 2500, 0, 100);
+    const blue = 155 + map(window.scrollY -9000, 0, 2500, 0, 100);
     background(red, green, blue);
   }
   
