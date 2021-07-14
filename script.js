@@ -247,10 +247,10 @@ function draw() {
     text(s31.toString(),width- x[11],height- y[11]);
   }
   
-}
-
-function keyPressed(){
-  if(key== 's'){
-    saveCanvas('birthdayCard', 'png');
+  if(keyIsPressed){
+    if(key== 's'){
+      saveCanvas('birthdayCard', 'png');
+    }
   }
+  
 }
