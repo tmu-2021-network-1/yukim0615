@@ -14,15 +14,6 @@ canvas {
   height: 100%;
 }
 
-.calendar{
-  position: fixed;
-  background-color: red;
-  width: 10%;
-  height: auto;
-  top: 35%;
-  left: 45%;
-}
-
 #container1{
   position: absolute;
   top: 0px;
@@ -194,7 +185,7 @@ img.Nov{
 
 img.Dec{
   position: fixed;
-  top: 35%;
+  top: 34%;
   left: 45%;
   width: 10%;
 }
