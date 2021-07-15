@@ -21,6 +21,8 @@ function draw() {
   if(scrollY<3000){
     const green = 255 - map(window.scrollY, 0, 3000, 0, 100);
     background(255, green, 255);
+    
+    document.getElementById("image").innerHTML='<img src="image/snow.png">';
   }
   
   else if(3000<=scrollY&&scrollY<6000){
