@@ -12,10 +12,6 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
     }
 }
 
-function preload(){
-  rain= loadImage('image/rain.png');
-}
-
 function draw() {
   if(scrollY<3000){
     const green = 255 - map(window.scrollY, 0, 3000, 0, 100);
