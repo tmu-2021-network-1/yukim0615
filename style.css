@@ -113,6 +113,7 @@ canvas {
 h1{
   position: fixed;
   left: 5%;
+  font-family: serif, fantasy;
 }
 
 .contents{
