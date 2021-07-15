@@ -3,8 +3,8 @@ const y= [];
 const r= [];
 
 function setup() {  createCanvas(window.innerWidth, window.innerHeight);
-  rectMode(CENTER);
   colorMode(RGB, 255, 255, 255);
+  textAlign(CENTER, CENTER);
   textFont("serif, fantasy");
     for(i=0; i<12; i++){
       x[i]= random()* width* 2/ 3;
