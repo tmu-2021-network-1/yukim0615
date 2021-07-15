@@ -64,7 +64,7 @@ function draw() {
     push();
     translate(width- x[0], height- y[0]);
     rotate(r[0]);
-    text(s31.toString(),0 ,0);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
@@ -85,7 +85,7 @@ function draw() {
     push();
     translate(width- x[1], height- y[1]);
     rotate(r[1]);
-    text(s29.toString(),width- x[1],height- y[1]);
+    text(s29.toString(), 0, 0);
     pop();
   }
   
@@ -106,7 +106,7 @@ function draw() {
     push();
     translate(width- x[2], height- y[2]);
     rotate(r[2]);
-    text(s31.toString(),width- x[2],height- y[2]);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
@@ -127,7 +127,7 @@ function draw() {
     push();
     translate(width- x[3], height- y[3]);
     rotate(r[3]);
-    text(s30.toString(),width- x[3],height- y[3]);
+    text(s30.toString(), 0, 0);
     pop();
   }
   
@@ -148,7 +148,7 @@ function draw() {
     push();
     translate(width- x[4], height- y[4]);
     rotate(r[4]);
-    text(s31.toString(),width- x[4],height- y[4]);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
@@ -169,7 +169,7 @@ function draw() {
     push();
     translate(width- x[5], height- y[5]);
     rotate(r[5]);
-    text(s30.toString(),width- x[5],height- y[5]);
+    text(s30.toString(), 0, 0);
     pop();
   }
   
@@ -190,7 +190,7 @@ function draw() {
     push();
     translate(width- x[6], height- y[6]);
     rotate(r[6]);
-    text(s31.toString(),width- x[6],height- y[6]);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
@@ -211,7 +211,7 @@ function draw() {
     push();
     translate(width- x[7], height- y[7]);
     rotate(r[7]);
-    text(s31.toString(),width- x[7],height- y[7]);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
@@ -232,7 +232,7 @@ function draw() {
     push();
     translate(width- x[8], height- y[8]);
     rotate(r[8]);
-    text(s30.toString(),width- x[8],height- y[8]);
+    text(s30.toString(), 0, 0);
     pop();
   }
   
@@ -253,7 +253,7 @@ function draw() {
     push();
     translate(width- x[9], height- y[9]);
     rotate(r[9]);
-    text(s31.toString(),width- x[9],height- y[9]);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
@@ -274,7 +274,7 @@ function draw() {
     push();
     translate(width- x[10], height- y[10]);
     rotate(r[10]);
-    text(s30.toString(),width- x[10],height- y[10]);
+    text(s30.toString(), 0, 0);
     pop();
   }
   
@@ -295,7 +295,7 @@ function draw() {
     push();
     translate(width- x[11], height- y[11]);
     rotate(r[11]);
-    text(s31.toString(),width- x[11],height- y[11]);
+    text(s31.toString(), 0, 0);
     pop();
   }
   
