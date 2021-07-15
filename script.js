@@ -22,7 +22,7 @@ function draw() {
     const green = 255 - map(window.scrollY, 0, 3000, 0, 100);
     background(255, green, 255);
     
-    document.getElementById("image").innerHTML='<img src="image/snow.png">';
+    document.getElementById("image").innerHTML='<img class="snow" src="image/snow.png">';
   }
   
   else if(3000<=scrollY&&scrollY<6000){
