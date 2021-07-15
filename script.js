@@ -12,6 +12,9 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
     }
 }
 
+function preload(){
+  rain= loadImage('image/rain.png');
+}
 
 function draw() {
   if(scrollY<3000){
