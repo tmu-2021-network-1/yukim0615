@@ -64,7 +64,7 @@ function draw() {
     push();
     translate(width- x[0], height- y[0]);
     rotate(r[0]);
-    text(s31.toString(),width- x[0],height- y[0]);
+    text(s31.toString(),0 ,0);
     pop();
   }
   
