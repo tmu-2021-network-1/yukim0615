@@ -187,3 +187,8 @@ img.sticky{
   position: -webkit-sticky;
   top: 35%;
 }
+
+img.rain{
+  position: fixed;
+  top: 0;
+  left: 0;
