@@ -188,10 +188,34 @@ img.sticky{
   top: 35%;
 }
 
-img.rain{
+img.sakura{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
+}
+
+img.rain{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+img.ochiba{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+img.snow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
 }
