@@ -7,10 +7,10 @@ function setup() {  createCanvas(window.innerWidth, window.innerHeight);
   textAlign(CENTER, CENTER);
   textFont("serif, fantasy");
     for(i=0; i<12; i++){
-      x[i]= random()* width* 2/ 3;
+      x[i]= random()* width* 2/ 3+ width/ 6;
     }
     for(j=0; j<12; j++){
-      y[j]= random()* height* 4/ 5;
+      y[j]= random()* height* 4/ 5+ height/ 10;
     }
     for(k=0; k<12; k++){
       r[k]= (random()* 2- 1)* PI/ 3;
@@ -77,6 +77,10 @@ function draw() {
   let s29= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 29.9));
   let s30= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 30.9));
   let s31= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 31.9));
+  
+  if(s31<1){
+    s31= 1;
+  }
 
   if(window.scrollY<1000){
     fill(0,0,0,map(abs(window.scrollY-500),0,500,255,0));
