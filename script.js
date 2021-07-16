@@ -22,13 +22,28 @@ function draw() {
     const green = 255 - map(window.scrollY, 0, 3000, 0, 100);
     background(255, green, 255);
     
-    document.getElementById("image").innerHTML='<img class="snow" src="image/snow.png">';
+    if(scrollY<2000){
+      document.getElementById("image").innerHTML='<img class="snow" src="image/snow.png">';
+    }
+    else{
+      document.getElementById("image").innerHTML='';
+    }
   }
   
   else if(3000<=scrollY&&scrollY<6000){
     const red = 255 - map(window.scrollY -3000, 0, 3000, 0, 155);
     const green = 155 + map(window.scrollY -3000, 0, 3000, 0, 45);
     background(red, green, 255);
+    
+    if(scrollY<4000){
+      document.getElementById("image").innerHTML='<img class="sakura" src="image/sakura.png">';
+    }
+    else if(5000<=scrollY){
+      document.getElementById("image").innerHTML='<img class="rain" src="image/rain.png">';
+    }
+    else{
+      document.getElementById("image").innerHTML='';
+    }
   }
   
   else if(6000<=scrollY&&scrollY<9000){
@@ -36,6 +51,13 @@ function draw() {
     const green = 200 - map(window.scrollY -6000, 0, 3000, 0, 45);
     const blue = 255 - map(window.scrollY -6000, 0, 3000, 0, 100);
     background(red, green, blue);
+    
+    if(8000<=scrollY){
+      document.getElementById("image").innerHTML='<img class="rain" src="image/rain.png">';
+    }
+    else{
+      document.getElementById("image").innerHTML='';
+    }
   }
   
   else if(9000<=scrollY&&scrollY<12000){
@@ -43,6 +65,13 @@ function draw() {
     const green = 155 + map(window.scrollY -9000, 0, 3000, 0, 100);
     const blue = 155 + map(window.scrollY -9000, 0, 3000, 0, 100);
     background(red, green, blue);
+    
+    if(scrollY<11000){
+      document.getElementById("image").innerHTML='<img class="ochiba" src="image/ochiba.png">';
+    }
+    else if(11000<=scrollY){
+      document.getElementById("image").innerHTML='<img class="snow" src="image/snow.png">';
+    }
   }
   
   let s29= Math.floor(map(window.scrollY%1000, 0, 1000, 1, 29.9));
