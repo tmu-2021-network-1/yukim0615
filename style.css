@@ -112,6 +112,7 @@ canvas {
 
 h1{
   position: fixed;
+  top: 5%;
   left: 5%;
   font-family: serif, fantasy;
 }
